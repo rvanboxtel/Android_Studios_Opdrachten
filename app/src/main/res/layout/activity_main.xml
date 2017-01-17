@@ -15,11 +15,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FUCK OFF YOU BLOODY CUNTS"
+        android:text="YOU WILL NEVER BECOME SITH!"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/textViewMain2"
+        android:layout_below="@+id/imageViewMain1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:src="@drawable/SWOTORSithEmpire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageViewMain1"
+        android:layout_below="@+id/textViewMain1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLAVE SCUM!"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:id="@+id/textView"
-        android:layout_marginTop="12dp"
+        android:id="@+id/textViewMain1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
